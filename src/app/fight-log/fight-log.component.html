@@ -1,0 +1,12 @@
+<div>
+  <h2>Fight:</h2>
+  <p>hero1: {{fight.attacker}}</p>
+  <p>hero2: {{fight.defender}}</p>
+  <div>
+    <ul>
+      <li *ngFor="let log of fight.fightLog.log">
+        {{ log }}
+      </li>
+    </ul>
+  </div>
+</div>
